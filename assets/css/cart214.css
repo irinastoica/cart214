@@ -1,0 +1,65 @@
+    .content {
+      margin-left: 100px;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+
+    .container-fluid,
+    .row,
+    .col-md-6 {
+      height: 100%;
+    }
+
+   .exercises a, .major a {
+      display: block;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+	  text-decoration: none;
+    }
+  
+
+div.exercises{
+	background-color: #bdccff;
+}
+
+div.major{
+	background-color:#1e203f;
+	color:white!important;
+}
+div.exercises:hover{
+	background-color:rgba(189, 204, 255, 0.85);
+	cursor: pointer;
+}
+
+div.major:hover{
+	background-color: rgba(30, 32, 63,0.98);
+	cursor: pointer;
+}
+
+h3.projects{
+	  font-family: "brandon-grotesque";
+    font-weight: 300;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #525aa4;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    line-height: 1.1;
+	text-decoration: none;
+}
+
+h3.projects a:hover{
+	text-decoration: none;
+}
+
+ @media (max-width: 768px) {
+      .content {
+        position: static !important;
+      }
+    }
