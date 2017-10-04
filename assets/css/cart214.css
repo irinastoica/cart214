@@ -24,7 +24,7 @@
   
 
 div.exercises{
-	background-color: #bdccff;
+	background-color: rgb(223, 196, 42);
 }
 
 div.major{
@@ -32,7 +32,7 @@ div.major{
 	color:white!important;
 }
 div.exercises:hover{
-	background-color:rgba(189, 204, 255, 0.85);
+	background-color:rgba(223, 196, 42,0;8);
 	cursor: pointer;
 }
 
@@ -43,8 +43,8 @@ div.major:hover{
 
 h3.projects{
 	  font-family: "brandon-grotesque";
-    font-weight: 300;
-    font-size: 32px;
+    font-weight: bold;
+    font-size: 40px;
     text-transform: uppercase;
     color: #525aa4;
     margin-top: -10px;
