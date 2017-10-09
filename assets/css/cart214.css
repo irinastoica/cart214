@@ -24,29 +24,28 @@
   
 
 div.exercises{
-	background-color: rgb(223, 196, 42);
+	background-color:#feeb46;
 }
 
 div.major{
-	background-color:#1e203f;
-	color:white!important;
+	background-color:#565797;
+	color:#eef75e!important;
 }
 div.exercises:hover{
-	background-color:rgba(223, 196, 42,0;8);
+
 	cursor: pointer;
 }
 
 div.major:hover{
-	background-color: rgba(30, 32, 63,0.98);
+	/*background-color: rgba(30, 32, 63,0.98);*/
 	cursor: pointer;
 }
 
-h3.projects{
-	  font-family: "brandon-grotesque";
-    font-weight: bold;
+h3.projects-cart214{
+	 font-family: 'Leckerli One', cursive;
+
     font-size: 40px;
-    text-transform: uppercase;
-    color: #525aa4;
+    color: #eef75e;
     margin-top: -10px;
     margin-bottom: 20px;
     letter-spacing: 1px;
@@ -54,9 +53,12 @@ h3.projects{
 	text-decoration: none;
 }
 
-h3.projects a:hover{
-	text-decoration: none;
+h3.projects--cart214:hover{
+	color:black;
 }
+
+div.description-cart214{
+	text-align: justify;}
 
  @media (max-width: 768px) {
       .content {
