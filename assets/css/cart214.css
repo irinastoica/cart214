@@ -72,8 +72,21 @@ div.container-cart-214{
     position: absolute;
 }
 
+@media (min-width:767px) and (max-width: 991px){
+	 .content {
+		position: static;
+    	height: 100%;
+       
+}
+}
+
  @media (max-width: 768px) {
       .content {
-        position: static !important;
+		position: static;
+    	height: 100%;
+       
       }
+	 .content_cart214{
+		 margin-left:0px;
+	 }
     }
