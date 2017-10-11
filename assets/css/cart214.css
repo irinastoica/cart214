@@ -42,8 +42,7 @@ div.major:hover{
 }
 
 h3.projects-cart214{
-	 font-family: 'Leckerli One', cursive;
-
+	font-family: 'Leckerli One', cursive;
     font-size: 40px;
     color: #eef75e;
     margin-top: -10px;
@@ -56,9 +55,22 @@ h3.projects-cart214{
 h3.projects--cart214:hover{
 	color:black;
 }
+h3.cart-214{
+
+	font-family: 'Leckerli One', cursive;
+	font-size:35px;
+
+	
+	
+}
 
 div.description-cart214{
 	text-align: justify;}
+
+div.container-cart-214{
+	margin-left: 39px;
+    position: absolute;
+}
 
  @media (max-width: 768px) {
       .content {
