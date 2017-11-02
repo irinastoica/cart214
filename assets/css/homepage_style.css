@@ -346,6 +346,9 @@ h1.about-title{
      div.profil-animation{
         display: none!important;
     }
+.home-content.
+	{overflow: visible;
+}
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
