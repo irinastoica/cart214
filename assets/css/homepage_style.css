@@ -112,6 +112,8 @@ figure.figure-about{
     position: relative;
     top: 17%;
     text-align: center;
+	background-color: #565797;
+	overflow: visible;
 }
 
 .home-welcomeText-mobile span.title {
@@ -346,9 +348,10 @@ h1.about-title{
      div.profil-animation{
         display: none!important;
     }
-.home-content.
-	{overflow: visible;
-}
+
+	
+.home-content.page-container {
+    overflow: visible;
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
