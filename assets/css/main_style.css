@@ -8,13 +8,13 @@
 ::selection {
     background: #000;
     /* WebKit/Blink Browsers */
-    
+
     color: #fff;
 }
 ::-moz-selection {
     background: #000;
     /* WebKit/Blink Browsers */
-    
+
     color: #fff;
 }
 
@@ -30,6 +30,19 @@ div.img-container-bioethics{
 }
 .oi_logo_glitch {
     margin-bottom: 60px;
+}
+
+button.website {
+  padding: 20px;
+  transform: uppercase;
+  background-color: #30657f;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border: none;
+}
+button.website:hover{
+  background-color: black;
 }
 #preloader {
     position: fixed;
@@ -555,10 +568,10 @@ ul.oi_header_menu > li > a,
 .oi_footer_holder svg {
     -ms-transform: rotate(180deg);
     /* IE 9 */
-    
+
     -webkit-transform: rotate(180deg);
     /* Chrome, Safari, Opera */
-    
+
     transform: rotate(180deg);
 }
 .oi_go_to_top:hover svg {
@@ -655,16 +668,16 @@ ul.oi_header_menu > li > a,
     transform: scale(1.1);
     -ms-transform: scale(1.1);
     /* IE 9 */
-    
+
     -moz-transform: scale(1.1);
     /* Firefox */
-    
+
     -webkit-transform: scale(1.1);
     /* Safari and Chrome */
-    
+
     -o-transform: scale(1.1);
     /* Opera */
-    
+
     cursor: crosshair;
 }
 .oi_blog_post_content_holder {
@@ -1155,13 +1168,13 @@ textarea {
     .oi_all_menu_holder {
         background: #f5f5f5 !important;
     }
-	
+
 	div.exercises_cart{
 		background-color:#3A97D1;
 		color:white;
 	}
-	
-	
+
+
     .oi_fixed {
         position: relative !important;
     }
@@ -1330,16 +1343,16 @@ wrapper.second.vc_box_border_grey {
 .desaturate {
     filter: grayscale(100%);
     /* Standard CSS */
-    
+
     -webkit-filter: grayscale(100%);
     /* CSS for Webkit Browsers */
-    
+
     filter: url(/elements/grayscale.svg#desaturate);
     /* Firefox 4-34 */
-    
+
     filter: gray;
     /* Internet Explorer IE6-9 */
-    
+
     -webkit-filter: grayscale(1);
     /* Old WebKit Browsers */
 }
@@ -1582,7 +1595,7 @@ div.animation {
     position: relative;
 }
 .p-projects figure {
-   
+
     padding-left: 0px;
     padding-right: 0px;
     margin: 0px;
@@ -2014,24 +2027,24 @@ nav.mobile-nav i.fa {
 /*MOBILE VIEW*/
 @media (max-width: 480px) {
 
-    
+
     div.img-container-bioethics{
     position: static;
         transform: none;
         background-color: white;
         padding-top:50px;
         overflow-x:hidden;
-} 
+}
     div.page-container {
     padding-top: 50px; /*same as height of nav on mobile*/
     }
 
     nav.mobile-nav {
-        display: block !important;  
+        display: block !important;
     }
 
     nav.desktop-nav {
-        display: none !important;   
+        display: none !important;
     }
     aside.project-details {
         width: 100%;
@@ -2088,7 +2101,7 @@ nav.mobile-nav i.fa {
     .photography-content {
         padding-left: 0px;
         padding-top: 80px;
-    }    
+    }
 
     .buttons h1 {
     width: 85%;
@@ -2098,10 +2111,10 @@ nav.mobile-nav i.fa {
     .oi_vc_port_mask {
         bottom: -1px !important;
     }
-    
+
     h3.oi_sub_legend {
         font-size: 12px;
-        padding-top:20px;                    
+        padding-top:20px;
     }
     .p-detail aside.project-details {
     position: static;
@@ -2114,7 +2127,7 @@ nav.mobile-nav i.fa {
     .animation-mcc{
         display: none;
     }
-    
+
     div.description{
         font-size: 18px;
     }
@@ -2126,7 +2139,7 @@ nav.mobile-nav i.fa {
     .buffalo{
         margin-bottom: 16px!important;
     }
-   
+
     .p-projects figure h3{
         font-size: 30px;
             line-height: 1.0;
@@ -2240,7 +2253,7 @@ nav.mobile-nav i.fa {
 
 
     .hi-icon {
-        width: 75px !important; 
+        width: 75px !important;
     }
     .p-detail aside.project-details {
     position: static;
@@ -2277,13 +2290,15 @@ nav.mobile-nav i.fa {
    .about-info-mobile h1{
     width: 100%;
     margin-top:15px;}
-    
+
 }
+/*final project*/
+
 
 /*DESKTOP VIEW*/
 @media (min-width: 1025px) {
     .first{
     margin-top:0px!important;
     }
-    
+
 }
